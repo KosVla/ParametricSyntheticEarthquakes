@@ -1,4 +1,4 @@
-# Algorithmic framework for parametric representation of synthetic earthquakes 
+# Parametric representation of synthetic earthquakes 
 
 This repository contains all necessary functions and subroutines for a parametric representation of synthetic earthquakes. 
 Specifically, the stochastic ground motion model proposed in Rezaeian & Kiureghian 2010 is employed for the parametric representation of synthetic
