@@ -10,7 +10,7 @@ Thus, via the proposed framework synthetic earthquakes are produced by filtering
 non-stationary  modulating function in order to simulate the time-varying characteristics for both the temporal and spectral content of a real earthquake. The non-stationary filter and the modulating functions are described by a small number of uncertain parameters, 
 with sample observations of the latter being estimated through fitting of the model to real recorded earthquake ground motion signals.
 
-![alt text](http://url/to/img.png)
+![Alt text](/relative/path/to/img.jpg?raw=true "Schematic of the process")
 
 Therefore, given a target accelerogram, the parameters $ωmid,ω′, ζf , Ia,D5−95, and tmid$ may be identified 
 by matching the properties of the recorded motion
