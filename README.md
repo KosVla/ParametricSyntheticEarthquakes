@@ -1,7 +1,6 @@
 # Parametric representation of synthetic earthquakes 
 
-This public repository contains all necessary functions and subroutines for a parametric representation of synthetic earthquakes, as described in 
-Spiridonakos, Minas & Chatzi, Eleni. (2015). Metamodeling of nonlinear structural systems with parametric uncertainty subject to stochastic dynamic excitation. Earthquakes and Structures. 8. 915-934. 10.12989/eas.2015.8.4.915.
+This public repository contains all necessary functions and subroutines for a parametric representation of synthetic earthquakes, as described in: *Spiridonakos, Minas & Chatzi, Eleni. (2015). Metamodeling of nonlinear structural systems with parametric uncertainty subject to stochastic dynamic excitation. Earthquakes and Structures. 8. 915-934. 10.12989/eas.2015.8.4.915.*
 
 Specifically, the stochastic ground motion model proposed in Rezaeian & Kiureghian (2010) is employed for the parametric representation of synthetic
 earthquake ground motion acceleration signals. According to this model the ground motion is produced by time-modulating a normalized filtered white noise process. In order to simulate the time-varying characteristics of both the temporal and spectral content of a real earthquake, the modulating function and
