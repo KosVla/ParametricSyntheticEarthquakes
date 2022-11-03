@@ -58,6 +58,22 @@ url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/eqe.997},
 eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/eqe.997},
 year = {2010}
 }
+@INPROCEEDINGS{20.500.11850/442909,
+	copyright = {In Copyright - Non-Commercial Use Permitted},
+	year = {2020-09-09},
+	type = {Conference Paper},
+	institution = {EC and EC},
+	author = {Vlachas, Konstantinos and Tatsis, Konstantinos and Agathos, Konstantinos and Brink, Adam R. and Chatzi, Eleni},
+	size = {12 p. accepted version; 27 p. presentation},
+	abstract = {At the dawn of Industry 4.0, it has become apparent that assessment of engineered systems should be informed from the state of the system “as-is”. To this end, data needs to be fused with adequate and efficient system models. Such system models should account for the underlying physics and the possibly nonlinear dynamic processes involved. This paper introduces a physics-based parametric formulation for nonlinear structural systems. A Reduced Order Model (ROM) of the high fidelity system is developed, retaining the dependencies on system properties and on temporal and spectral characteristics of the excitation. The ROM formulation relies on i) Proper Orthogonal Decomposition applied to snapshots of the nonlinear response, and ii) manifold interpolation of the resulting projection bases. Its performance is evaluated on a 3D earthquake-excited shear frame with nonlinear couplings. The developed ROM can be exploited for a number of tasks including monitoring, diagnostics and residual life estimation of critical components.},
+	keywords = {Reduced order model; Nonlinear dynamical systems; Earthquake ground motions; Parametric modeling},
+	language = {en},
+	address = {Zurich},
+	publisher = {ETH Zurich, Environmental and Geomatic Engineering},
+	DOI = {10.3929/ethz-b-000442909},
+	title = {A physics-based, local POD basis approach for multi-parametric reduced order models},
+	Note = {International Conference on Noise and Vibration Engineering (ISMA 2020) in conjunction with the 8th International Conference on Uncertainty in Structural Dynamics (USD 2020); Conference Location: online; Conference Date: September 7-9, 2020; Conference lecture held on September 9, 2020}
+}
 ```
 
 
