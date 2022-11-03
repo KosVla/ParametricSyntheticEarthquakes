@@ -45,6 +45,7 @@ If you use the algorithmic framework presented here you are kindly requested to 
 }
 ```
 Further sources which can be of interest include:
+```
 @article{https://doi.org/10.1002/eqe.997,
 author = {Rezaeian, Sanaz and Der Kiureghian, Armen},
 title = {Simulation of synthetic ground motions for specified earthquake and site characteristics},
@@ -58,5 +59,6 @@ url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/eqe.997},
 eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/eqe.997},
 year = {2010}
 }
+```
 
 
