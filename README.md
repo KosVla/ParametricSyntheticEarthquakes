@@ -59,6 +59,7 @@ eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/eqe.997},
 year = {2010}
 }
 ```
+```
 @INPROCEEDINGS{20.500.11850/442909,
 	copyright = {In Copyright - Non-Commercial Use Permitted},
 	year = {2020-09-09},
