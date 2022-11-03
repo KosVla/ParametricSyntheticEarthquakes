@@ -3,8 +3,7 @@
 This public repository contains all necessary functions and subroutines for a parametric representation of synthetic earthquakes, as described in: *Spiridonakos, Minas & Chatzi, Eleni. (2015). Metamodeling of nonlinear structural systems with parametric uncertainty subject to stochastic dynamic excitation. Earthquakes and Structures. 8. 915-934. 10.12989/eas.2015.8.4.915.*
 
 Specifically, the stochastic ground motion model proposed in Rezaeian & Kiureghian (2010) is employed for the parametric representation of synthetic
-earthquake ground motion acceleration signals. According to this model the ground motion is produced by time-modulating a normalized filtered white noise process. In order to simulate the time-varying characteristics of both the temporal and spectral content of a real earthquake, the modulating function and
-the Impulse Response Filter (IRF) of the aforementioned model have non-stationary properties. Thus, via the proposed framework synthetic earthquakes are produced by filtering a white noise process through a non-stationary impulse response filter and a non-stationary  modulating function in order to simulate the time-varying characteristics for both the temporal and spectral content of a real earthquake. The non-stationary filter and the modulating functions are described by a small number of uncertain parameters, with sample observations of the latter being estimated through fitting of the model to real recorded earthquake ground motion signals. A visualization of the framework is depicted below for reference.
+earthquake ground motion acceleration signals. According to this model, the ground motion is produced by time-modulating a normalized filtered white noise process, in this way simulating the time-varying characteristics of both the temporal and spectral content of actual earthquak signals. Synthetic earthquakes are produced by filtering a white noise process through a non-stationary impulse response filter and a non-stationary  modulating function. The non-stationary filter and the modulating functions are described by a finite set of parameters, with sample observations of the latter being estimated through fitting of the model to real recorded earthquake ground motion signals. A visualization of the framework is depicted below for reference.
 
 
 ![Process Visualization](/Visualization.png?raw=true "Schematic of the process")
@@ -17,7 +16,7 @@ signals of the PEER database (horizontal components only; PEER 2012).
 
 The **main** branch contains the two main scripts to utilise the framework, the license file and the *ReadMe* file.
 
-Specifically, **Runpad_Compute_Parameters_PEER.m** drives the parametrization process of a database of accelerograms, whereas **SingleAccelerogram_DistributionFittingExample.m** serves as an example implementaion file that evaluates the respective distributions of the parameters extracted and employs the respective probability density functions to parametrise any accelerogram, even if it's not included in the database.
+Specifically, **Runpad_Compute_Parameters_PEER.m** drives the parametrization process of a database of accelerograms, whereas **SingleAccelerogram_DistributionFittingExample.m** serves as an example implementaion file that evaluates the respective distributions of the extracted parameters and employs the respective probability density functions to parametrise further unseen accelerograms, i.e., not already included in the database.
 
 The source software files are contained in the respective folder **SourceCode** and include all functions and subroutines employed for pre- and post-processing, PSO optimation and filtering operations.
 
@@ -45,3 +44,19 @@ If you use the algorithmic framework presented here you are kindly requested to 
   publisher={Techno-Press}
 }
 ```
+Further sources which can be of interest include:
+@article{https://doi.org/10.1002/eqe.997,
+author = {Rezaeian, Sanaz and Der Kiureghian, Armen},
+title = {Simulation of synthetic ground motions for specified earthquake and site characteristics},
+journal = {Earthquake Engineering \& Structural Dynamics},
+volume = {39},
+number = {10},
+pages = {1155-1180},
+keywords = {earthquake ground motions, model validation, NGA database, simulation, stochastic models, strong-motion records, synthetic motions},
+doi = {https://doi.org/10.1002/eqe.997},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/eqe.997},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/eqe.997},
+year = {2010}
+}
+
+
