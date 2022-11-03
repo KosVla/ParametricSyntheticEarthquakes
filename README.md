@@ -61,19 +61,19 @@ year = {2010}
 ```
 ```
 @INPROCEEDINGS{20.500.11850/442909,
-	copyright = {In Copyright - Non-Commercial Use Permitted},
-	year = {2020-09-09},
-	type = {Conference Paper},
-	institution = {EC and EC},
-	author = {Vlachas, Konstantinos and Tatsis, Konstantinos and Agathos, Konstantinos and Brink, Adam R. and Chatzi, Eleni},
-	size = {12 p. accepted version; 27 p. presentation},
-	keywords = {Reduced order model; Nonlinear dynamical systems; Earthquake ground motions; Parametric modeling},
-	language = {en},
-	address = {Zurich},
-	publisher = {ETH Zurich, Environmental and Geomatic Engineering},
-	DOI = {10.3929/ethz-b-000442909},
-	title = {A physics-based, local POD basis approach for multi-parametric reduced order models},
-	Note = {International Conference on Noise and Vibration Engineering (ISMA 2020) in conjunction with the 8th International Conference on Uncertainty in Structural Dynamics (USD 2020); Conference Location: online; Conference Date: September 7-9, 2020; Conference lecture held on September 9, 2020}
+copyright = {In Copyright - Non-Commercial Use Permitted},
+year = {2020-09-09},
+type = {Conference Paper},
+institution = {EC and EC},
+author = {Vlachas, Konstantinos and Tatsis, Konstantinos and Agathos, Konstantinos and Brink, Adam R. and Chatzi, Eleni},
+size = {12 p. accepted version; 27 p. presentation},
+keywords = {Reduced order model; Nonlinear dynamical systems; Earthquake ground motions; Parametric modeling},
+language = {en},
+address = {Zurich},
+publisher = {ETH Zurich, Environmental and Geomatic Engineering},
+DOI = {10.3929/ethz-b-000442909},
+title = {A physics-based, local POD basis approach for multi-parametric reduced order models},
+Note = {International Conference on Noise and Vibration Engineering (ISMA 2020) in conjunction with the 8th International Conference on Uncertainty in Structural Dynamics (USD 2020); Conference Location: online; Conference Date: September 7-9, 2020; Conference lecture held on September 9, 2020}
 }
 ```
 
