@@ -35,7 +35,7 @@ If you use the algorithmic framework presented here you are kindly requested to 
 ```
 @article{spiridonakos2015metamodeling,
   title={Metamodeling of nonlinear structural systems with parametric uncertainty subject to stochastic dynamic excitation},
-  author={Spiridonakos, Minas D and Chatzia, Eleni N},
+  author={Spiridonakos, Minas D and Chatzi, Eleni N},
   journal={Earthquakes and Structures},
   volume={8},
   number={4},
