@@ -1,6 +1,19 @@
-close ALL, clear, clc
+%% Main Script 
+% Example runpad for the forward process of the parametrization framework.
+% The runpad assembles synthetic ground motions given the necessary
+% parametric inputs for the filtering and modulation frequency.
+%
+%
+%GNU General Public License v3.0
+%Please cite as:
+% Spiridonakos, Minas & Chatzi, Eleni. (2015). 
+% Metamodeling of nonlinear structural systems with parametric uncertainty 
+% subject to stochastic dynamic excitation. 
+% Earthquakes and Structures. 8. 915-934. 10.12989/eas.2015.8.4.915.
 
+addpath(genpath("SourceCode"));
 %% Define input parameter
+clc;clear;
 
 % Filtering parameters
 theta(1) = 39.7;    % omega_0 or omega_mid

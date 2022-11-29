@@ -11,6 +11,9 @@ function [s,h,sdot,hdot] = filterIRF(th,N,Ts,tmid)
 %   N : number of samples
 %   Ts : sampling period
 
+if nargin==3
+   tmid=0; 
+end
 % IRF non-stationary filter
 %================================================
 omega_mid = th(1);
