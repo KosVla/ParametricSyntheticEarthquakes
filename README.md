@@ -15,8 +15,8 @@ signals of the PEER database (horizontal components only; PEER 2012).
 
 The **main** branch contains the two main scripts to utilise the framework, the license file and the *ReadMe* file.
 
-Specifically, **Runpad_Compute_Parameters_PEER.m** drives the parametrization process of a database of accelerograms, whereas **SingleAccelerogram_DistributionFittingExample.m** serves as an example implementaion file that evaluates the respective distributions of the extracted parameters and employs the respective probability density functions to parametrise further unseen accelerograms, i.e., not already included in the database.
-
+Specifically, **Runpad_Compute_Parameters_PEER.m** drives the parametrization process of a database of accelerograms, whereas **SingleAccelerogram_DistributionFittingExample.m** serves as an example implementation file that evaluates the respective distributions of the extracted parameters and employs the respective probability density functions to parametrise further unseen accelerograms, i.e., not already included in the database.
+Finally, **ForwardProcessExample.m** contains an example evaluation of the full forward process given the parameters.
 The source software files are contained in the respective folder **SourceCode** and include all functions and subroutines employed for pre- and post-processing, PSO optimation and filtering operations.
 
 The folder **PEERExamples** contains a few example accelerograms from the PEER database to evaluate the code on the fly, whereas all raw data and workspaces can be found in the repository link provided in the folder **PEER_ALL**.
